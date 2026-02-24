@@ -3,7 +3,7 @@ import { de } from '@nuxt/ui/locale';
 
 useHead({
     titleTemplate: (titleChunk) => {
-        return titleChunk ? `${titleChunk} | Corelli Project` : 'Corelli Project';
+        return titleChunk ? `${titleChunk} | Satzmodelle Project` : 'Satzmodelle Project';
     },
 });
 </script>
@@ -27,7 +27,5 @@ html {
 }
 
 .bg-pattern {
-    background-color: oklch(68.284% 0.27742 341.473);
-    background-image: url("/bg-pattern.svg");
-}
+    background-color: oklch(68.284% 0.27742 341.473);}
 </style>

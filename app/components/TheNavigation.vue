@@ -4,7 +4,7 @@ const localePath = useLocalePath();
 
 const items = [
     {
-        label: t('home'),
+        label: t('start'),
         to: localePath({name: 'index'}),
     },
     {
