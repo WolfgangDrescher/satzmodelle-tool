@@ -1,0 +1,29 @@
+!!!COM: Komponist / Arrangeur
+!!!OTL: 7-6consecutive-aufwaerts
+**kern	**kern
+*part1	*part1
+*staff2	*staff1
+*I"Klavier	*
+*I'Klav.	*
+*clefF4	*clefG2
+*k[b-]	*k[b-]
+*M4/4	*M4/4
+=1	=1
+*	*^
+1FF	2cc	1a
+.	[2ff	.
+=	=	=
+1GG	2ff]	1b-
+.	4ee	.
+.	[4gg	.
+=	=	=
+1AA	2gg]	1cc
+.	4ff	.
+.	[4aa	.
+=	=	=
+1BB-	2aa]	1dd
+.	2gg	.
+==	==	==
+*-	*-	*-
+!!!system-decoration: {(s1,s2)}
+!!!COM: Arrangeur, Komponist /

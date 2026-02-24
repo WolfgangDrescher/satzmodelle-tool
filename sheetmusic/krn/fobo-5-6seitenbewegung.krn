@@ -1,0 +1,28 @@
+!!!COM: Komponist / Arrangeur
+!!!OTL: 5-6seitenbewegung
+**kern	**kern	**fb
+*part1	*part1	*part1
+*staff2	*staff1	*
+*I"Klavier	*	*
+*I'Klav.	*	*
+*clefF4	*clefG2	*
+*k[b-]	*k[b-]	*
+*M4/4	*M4/4	*
+=1	=1	=1
+*	*^	*
+1FF	2cc	1a	5
+.	[2dd	.	6
+=	=	=	=
+1GG	2dd]	1b-	5
+.	[2ee	.	6
+=	=	=	=
+1AA	2ee]	1cc	5
+.	[2ff	.	6
+=	=	=	=
+1BB-	2ff]	1dd	5
+.	2gg	.	6
+*	*v	*v	*
+==	==	==
+*-	*-	*-
+!!!system-decoration: {(s1,s2)}
+!!!COM: Arrangeur, Komponist /

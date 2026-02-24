@@ -1,0 +1,25 @@
+!!!COM: Komponist / Arrangeur
+!!!OTL: fauxbourdon-homophon
+**kern	**kern	**fb
+*part1	*part1	*part1
+*staff2	*staff1	*
+*I"Klavier	*	*
+*I'Klav.	*	*
+*clefF4	*clefG2	*
+*k[b-]	*k[b-]	*
+*M4/4	*M4/4	*
+=1	=1	=1
+*	*^	*
+2F	2dd	2a	6
+2E	2cc	2g	6
+=	=	=	=
+2D	2b-	2f	6
+2C	2a	2e	6
+=	=	=	=
+2BB-	2g	2d	6
+2AA	2f	2c	6
+*	*v	*v	*
+==	==	==
+*-	*-	*-
+!!!system-decoration: {(s1,s2)}
+!!!COM: Arrangeur, Komponist /

@@ -1,0 +1,22 @@
+!!!COM: Komponist / Arrangeur
+!!!OTL: lam-homophon
+**kern	**kern	**fb
+*part1	*part1	*part1
+*staff2	*staff1	*
+*I"Klavier	*	*
+*I'Klav.	*	*
+*clefF4	*clefG2	*
+*k[b-e-]	*k[b-e-]	*
+*M4/4	*M4/4	*
+=1	=1	=1
+1G	1b- 1dd	.
+=	=	=
+1F	1a 1dd	6
+=	=	=
+1E-	1g 1cc	6
+=	=	=
+1D	1f#X 1dd	#
+==	==	==
+*-	*-	*-
+!!!system-decoration: {(s1,s2)}
+!!!COM: Arrangeur, Komponist /

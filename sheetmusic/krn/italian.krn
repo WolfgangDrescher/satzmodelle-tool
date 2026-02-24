@@ -1,0 +1,22 @@
+!!!COM: Komponist / Arrangeur
+!!!OTL: lam-7-6consecutive
+**kern	**kern	**fb
+*part1	*part1	*part1
+*staff2	*staff1	*
+*I"Klavier	*	*
+*I'Klav.	*	*
+*clefF4	*clefG2	*
+*k[b-e-a-]	*k[b-e-a-]	*
+*M4/4	*M4/4	*
+*met(c)	*met(c)	*
+=1	=1	=1
+*	*^	*
+2c	2g	2e-	.
+2A-	2f#X	2c	#6
+*	*v	*v	*
+=	=	=
+1G	1Bn 1g	n
+==	==	==
+*-	*-	*-
+!!!system-decoration: {(s1,s2)}
+!!!COM: Arrangeur, Komponist /
