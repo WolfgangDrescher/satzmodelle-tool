@@ -5,26 +5,16 @@ const { t } = useI18n();
 
 const columns = [
     {
-        label: t('importantLinks'),
-        children: [
-            {
-                label: t('start'),
-                to: localePath('index'),
-            },
-            {
-                label: t('faq'),
-                to: localePath('faq'),
-            },
-        ],
+        label: t('start'),
+        to: localePath('index'),
     },
     {
-        label: t('sitemap'),
-        children: [
-            {
-                label: t('legalNotice'),
-                to: localePath('legal-notice'),
-            },
-        ],
+        label: t('faq'),
+        to: localePath('faq'),
+    },
+    {
+        label: t('legalNotice'),
+        to: localePath('legal-notice'),
     },
 ];
 </script>
@@ -41,7 +31,7 @@ const columns = [
                 <template #right>
                         <div>
                             <div class="flex justify-end">
-                                <img src="../.." class="max-h-[130px]" alt="Lückenfüller" />
+                                <img src="../assets/sea-otter.jpg" class="max-h-47.5" alt="Lückenfüller" />
                             </div>
                         </div>
                     </template>
