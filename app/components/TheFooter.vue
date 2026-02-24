@@ -5,15 +5,11 @@ const { t } = useI18n();
 
 const columns = [
     {
-        label: t('pages'),
+        label: t('importantLinks'),
         children: [
             {
-                label: t('home'),
+                label: t('start'),
                 to: localePath('index'),
-            },
-            {
-                label: t('sequences'),
-                to: localePath('sequences'),
             },
             {
                 label: t('faq'),
