@@ -31,6 +31,15 @@ watchEffect(() => {
                     square
                     :ui="{ label: 'hidden', base: 'text-white hover:text-black' }"
                 />
+                <UButton
+                    icon="i-simple-icons-instagram"
+                    to="https://instagram.com/percussionfloh"
+                    target="_blank"
+                    variant="ghost"
+                    color="neutral"
+                    square
+                    :ui="{ label: 'hidden', base: 'text-white hover:text-black' }"
+                />
                 <SearchPiecePalette v-model:open="isSearchOpen" />
             </div>
         </div>

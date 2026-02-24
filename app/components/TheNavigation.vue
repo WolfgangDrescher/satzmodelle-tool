@@ -12,7 +12,7 @@ const items = [
         to: localePath({name: 'about'}),
     },
     {
-        label: t(''),
+        label: t('sequences'),
         to: localePath({name: 'sequences'}),
     },
     {
