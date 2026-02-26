@@ -57,7 +57,7 @@
                     <!-- <MidiPlayer url="/krn/fonte-7-1.krn" class="text-2xl"/> -->
                 </div>
                 <div>
-                    <h2>Romanesca (2-3-Konsekutive)</h2>
+                    <h2>Romanesca (3-2-Konsekutive)</h2>
                     <VerovioCanvas view-mode="horizontal" url="/krn/gym-romanesca-2-3consecutive.krn" :scale="35" :page-margin="20" />
                     <!-- <MidiPlayer url="/krn/gym-romanesca-2-3consecutive.krn" class="text-2xl"/> -->
                 </div>
