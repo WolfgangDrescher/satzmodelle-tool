@@ -3,7 +3,7 @@ import { defineCollection, defineContentConfig, z } from '@nuxt/content';
 export default defineContentConfig({
     collections: {
         satzmodelle: defineCollection({
-            source: 'satzmodelle/*.yaml',
+            source: 'satzmodelle/**/*.yaml',
             type: 'data',
             schema: z.object({
                 title: z.string(),
