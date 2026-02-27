@@ -32,6 +32,10 @@ const items = [
         to: localePath({ name: 'karussell' }),
     },
     {
+        label: t('romanesca'),
+        to: localePath({ name: 'romanesca' }),
+    },
+    {
         label: t('lamento'),
         to: localePath({ name: 'lamento' }),
     },
