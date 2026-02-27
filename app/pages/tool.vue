@@ -1,4 +1,6 @@
-<script setup>
+<script setup lang="ts">
+import type { NavigationMenuItem } from '@nuxt/ui';
+const localePath = useLocalePath();
 const { t } = useI18n();
 const {data: satzmodelle} = await useAsyncData(`satzmodelle`, () => queryCollection('satzmodelle').all());
 
@@ -30,6 +32,37 @@ const nineSuspensions       = ref(false);        // 9suspensions
 const descending4Ascending2 = ref(false);        // descendig 4 and ascending 2
 const gymel                 = ref(false);
 const majorMinorParallelism = ref(false);        // MajorMinorParallelsim
+
+const items: NavigationMenuItem[] = [
+        {
+        label: t('augmentedSixthChords'),
+        to: localePath({ name: 'faq' }),
+    },
+    {
+        label: t('initialVoicings'),
+        to: localePath({ name: 'faq-initial-voicings' }),
+    },
+    {
+        label: t('cadenzaDoppia'),
+        to: localePath({ name: 'faq-cadenza-doppia' }),
+    },
+    {
+        label: t('syncopations'),
+        to: localePath({ name: 'faq-syncopations' }),
+    },
+    {
+        label: t('ascendingSyncopations'),
+        to: localePath({ name: 'faq-ascending-syncopations' }),
+    },
+    {
+        label: t('suspensions'),
+        to: localePath({ name: 'faq-suspensions' }),
+    },
+    {
+        label: t('voiceExchange'),
+        to: localePath({ name: 'faq-voice-exchange' }),
+    },
+];
 
 </script>
 
