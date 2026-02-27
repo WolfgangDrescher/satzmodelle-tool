@@ -33,7 +33,7 @@ const items = [
     },
     {
         label: t('lamento'),
-        to: localePath({ name: 'faq-lamento' }),
+        to: localePath({ name: 'lamento' }),
     },
     {
         label: t('quintfall'),
