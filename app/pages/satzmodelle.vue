@@ -6,21 +6,23 @@
     <UContainer>
         <div class="flex flex-col gap-8">
             <h1 class="text-3xl font-bold">Satzmodelle</h1>
+            <h1 class="text-xl font-bold">Übermäßige Sextakkorde</h1>
                 <div>
-                    <h2>French augmented Sixth</h2>
+                <div>
+                    <h2>Italienischer Übermäßiger Sextakkord</h2>
+                    <VerovioCanvas view-mode="horizontal" url="/krn/italian.krn" :scale="35" :page-margin="20" />
+                    <!-- <MidiPlayer url="/krn/italian.krn" class="text-2xl"/> -->
+                </div>
+                    <h2>Französischer Übermäßiger Sextakkord</h2>
                     <VerovioCanvas view-mode="horizontal" url="/krn/french.krn" :scale="35" :page-margin="20" />
                     <!-- <MidiPlayer url="/krn/french.krn" class="text-2xl"/> -->
                 </div>
                 <div>
-                    <h2>German augmented Sixth</h2>
+                    <h2>Deutscher Übermäßiger Sextakkord</h2>
                     <VerovioCanvas view-mode="horizontal" url="/krn/german.krn" :scale="35" :page-margin="20" />
                     <!-- <MidiPlayer url="/krn/german.krn" class="text-2xl"/> -->
                 </div>
-                <div>
-                    <h2>Italian augmented Sixth</h2>
-                    <VerovioCanvas view-mode="horizontal" url="/krn/italian.krn" :scale="35" :page-margin="20" />
-                    <!-- <MidiPlayer url="/krn/italian.krn" class="text-2xl"/> -->
-                </div>
+                <h1 class="text-xl font-bold">Fauxbourdon</h1>
                 <div>
                     <h2>Fauxbourdon aufwärts, 5-6-Seitenbewegung</h2>
                     <VerovioCanvas view-mode="horizontal" url="/krn/fobo-5-6seitenbewegung.krn" :scale="35" :page-margin="20" />
@@ -46,6 +48,7 @@
                     <VerovioCanvas view-mode="horizontal" url="/krn/fobo-aufwaerts.krn" :scale="35" :page-margin="20" />
                     <!-- <MidiPlayer url="/krn/fobo-aufwaerts.krn" class="text-2xl"/> -->
                 </div>
+                <h1 class="text-xl font-bold">Fonte</h1>
                 <div>
                     <h2>Fonte mit Bassklauseln</h2>
                     <VerovioCanvas view-mode="horizontal" url="/krn/fonte-5-1.krn" :scale="35" :page-margin="20" />
@@ -56,6 +59,18 @@
                     <VerovioCanvas view-mode="horizontal" url="/krn/fonte-7-1.krn" :scale="35" :page-margin="20" />
                     <!-- <MidiPlayer url="/krn/fonte-7-1.krn" class="text-2xl"/> -->
                 </div>
+                <h1 class="text-xl font-bold">Monte</h1>
+                <div>
+                    <h2>Monte mit Bassklauseln</h2>
+                    <VerovioCanvas view-mode="horizontal" url="/krn/monte-5-1.krn" :scale="35" :page-margin="20" />
+                    <!-- <MidiPlayer url="/krn/monte-5-1.krn" class="text-2xl"/> -->
+                </div>
+                <div>
+                    <h2>Monte mit Sopranklauseln</h2>
+                    <VerovioCanvas view-mode="horizontal" url="/krn/monte-7-1.krn" :scale="35" :page-margin="20" />
+                    <!-- <MidiPlayer url="/krn/monte-7-1.krn" class="text-2xl"/> -->
+                </div>
+                <h1 class="text-xl font-bold">Romanesca</h1>
                 <div>
                     <h2>Romanesca (3-2-Konsekutive)</h2>
                     <VerovioCanvas view-mode="horizontal" url="/krn/gym-romanesca-2-3consecutive.krn" :scale="35" :page-margin="20" />
@@ -72,15 +87,17 @@
                     <!-- <MidiPlayer url="/krn/gym-romanesca-homophon.krn" class="text-2xl"/> -->
                 </div>
                 <div>
-                    <h2>Karussell</h2>
-                    <VerovioCanvas view-mode="horizontal" url="/krn/karussell.krn" :scale="35" :page-margin="20" />
-                    <!-- <MidiPlayer url="/krn/karussell.krn" class="text-2xl"/> -->
-                </div>
-                <div>
                     <h2>La folia</h2>
                     <VerovioCanvas view-mode="horizontal" url="/krn/la-folia.krn" :scale="35" :page-margin="20" />
                     <!-- <MidiPlayer url="/krn/la-folia.krn" class="text-2xl"/> -->
                 </div>
+                <h1 class="text-xl font-bold">Karussell</h1>
+                <div>
+                    <h2>Karussell</h2>
+                    <VerovioCanvas view-mode="horizontal" url="/krn/karussell.krn" :scale="35" :page-margin="20" />
+                    <!-- <MidiPlayer url="/krn/karussell.krn" class="text-2xl"/> -->
+                </div>
+                <h1>Lamentobass</h1>
                 <div>
                     <h2>Lamentobass, 7-6-Konsekutive</h2>
                     <VerovioCanvas view-mode="horizontal" url="/krn/lam-7-6consecutive.krn" :scale="35" :page-margin="20" />
@@ -101,16 +118,7 @@
                     <VerovioCanvas view-mode="horizontal" url="/krn/lam-homophon.krn" :scale="35" :page-margin="20" />
                     <!-- <MidiPlayer url="/krn/lam-homophon.krn" class="text-2xl"/> -->
                 </div>
-                <div>
-                    <h2>Monte mit Bassklauseln</h2>
-                    <VerovioCanvas view-mode="horizontal" url="/krn/monte-5-1.krn" :scale="35" :page-margin="20" />
-                    <!-- <MidiPlayer url="/krn/monte-5-1.krn" class="text-2xl"/> -->
-                </div>
-                <div>
-                    <h2>Monte mit Sopranklauseln</h2>
-                    <VerovioCanvas view-mode="horizontal" url="/krn/monte-7-1.krn" :scale="35" :page-margin="20" />
-                    <!-- <MidiPlayer url="/krn/monte-7-1.krn" class="text-2xl"/> -->
-                </div>
+                <h1 class="text-xl font-bold">Quintfall und Quintanstieg</h1>
                 <div>
                     <h2>Diatonischer Quintfall mit Grundakkorden</h2>
                     <VerovioCanvas view-mode="horizontal" url="/krn/quintfall-dia-3-5.krn" :scale="35" :page-margin="20" />
