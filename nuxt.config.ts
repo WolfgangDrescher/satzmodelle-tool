@@ -16,7 +16,6 @@ export default defineNuxtConfig({
         ],
     ],
     css: ['~/assets/main.css'],
-    
     i18n: {
         strategy: 'prefix_except_default',
         locales: [
@@ -34,12 +33,12 @@ export default defineNuxtConfig({
         },
     },
     ui: {
-    theme: {
-      colors: [
-        'primary',
-        'secondary',
-        'neutral'
-      ]
-    }
-  }
-})
+        theme: {
+            colors: [
+                'primary',
+                'secondary',
+                'neutral',
+            ],
+        },
+    },
+});
