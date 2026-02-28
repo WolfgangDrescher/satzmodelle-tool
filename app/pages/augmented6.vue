@@ -12,12 +12,12 @@
                     <!-- <MidiPlayer url="/krn/italian.krn" class="text-2xl"/> -->
                 </div>
                 <div>
-                    <h2>Französischer Übermäßiger Sextakkord</h2>
+                    <h2>Französischer Übermäßiger Quartsextakkord</h2>
                     <VerovioCanvas view-mode="horizontal" url="/krn/french.krn" :scale="35" :page-margin="20" />
                     <!-- <MidiPlayer url="/krn/french.krn" class="text-2xl"/> -->
                 </div>
                 <div class="flex flex-col gap-8">
-                    <h2>Deutscher Übermäßiger Sextakkord</h2>
+                    <h2>Deutscher Übermäßiger Quintsextakkord</h2>
                     <VerovioCanvas view-mode="horizontal" url="/krn/german.krn" :scale="35" :page-margin="20" />
                     <!-- <MidiPlayer url="/krn/german.krn" class="text-2xl"/> -->
                 </div>
