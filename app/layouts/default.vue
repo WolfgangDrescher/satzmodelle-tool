@@ -3,7 +3,7 @@ import { de } from '@nuxt/ui/locale';
 
 useHead({
     titleTemplate: (titleChunk) => {
-        return titleChunk ? `${titleChunk} | Satzmodelle Project` : 'Satzmodelle Project';
+        return titleChunk ? `${titleChunk} | Satzmodelle Projekt` : 'Satzmodelle Projekt';
     },
 });
 </script>
