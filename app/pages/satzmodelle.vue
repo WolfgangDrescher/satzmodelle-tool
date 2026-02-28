@@ -61,26 +61,26 @@ const localePath = useLocalePath();
                 <div>
                     <h2>Fonte mit Bassklauseln</h2>
                     <VerovioCanvas view-mode="horizontal" url="/kern/fonte-5-1.krn" :scale="35" :page-margin="20" />
-                    <UButton :to="localePath('/fonteMonte')">Ansehen</UButton>
+                    <UButton :to="localePath('/fonte-monte')">Ansehen</UButton>
                     <!-- <MidiPlayer url="/kern/fonte-5-1.krn" class="text-2xl"/> -->
                 </div>
                 <div>
                     <h2>Fonte mit Sopranklauseln</h2>
                     <VerovioCanvas view-mode="horizontal" url="/kern/fonte-7-1.krn" :scale="35" :page-margin="20" />
-                    <UButton :to="localePath('/fonteMonte')">Ansehen</UButton>
+                    <UButton :to="localePath('/fonte-monte')">Ansehen</UButton>
                     <!-- <MidiPlayer url="/kern/fonte-7-1.krn" class="text-2xl"/> -->
                 </div>
                 <h1 class="text-xl font-bold">Monte</h1>
                 <div>
                     <h2>Monte mit Bassklauseln</h2>
                     <VerovioCanvas view-mode="horizontal" url="/kern/monte-5-1.krn" :scale="35" :page-margin="20" />
-                    <UButton :to="localePath('/fonteMonte')">Ansehen</UButton>
+                    <UButton :to="localePath('/fonte-monte')">Ansehen</UButton>
                     <!-- <MidiPlayer url="/kern/monte-5-1.krn" class="text-2xl"/> -->
                 </div>
                 <div>
                     <h2>Monte mit Sopranklauseln</h2>
                     <VerovioCanvas view-mode="horizontal" url="/kern/monte-7-1.krn" :scale="35" :page-margin="20" />
-                    <UButton :to="localePath('/fonteMonte')">Ansehen</UButton>
+                    <UButton :to="localePath('/fonte-monte')">Ansehen</UButton>
                     <!-- <MidiPlayer url="/kern/monte-7-1.krn" class="text-2xl"/> -->
                 </div>
                 <h1 class="text-xl font-bold">Romanesca</h1>
